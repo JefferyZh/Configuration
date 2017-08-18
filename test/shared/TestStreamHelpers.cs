@@ -8,7 +8,7 @@ using Microsoft.Extensions.Primitives;
 
 namespace Microsoft.Extensions.Configuration.Test
 {
-    public static class TestStreamHelpers
+    internal static class TestStreamHelpers
     {
         public static readonly string ArbitraryFilePath = "Unit tests do not touch file system";
 

@@ -5,7 +5,7 @@ using System;
 
 namespace Microsoft.Extensions.Configuration.Test
 {
-    public static class ConfigurationProviderExtensions
+    internal static class ConfigurationProviderExtensions
     {
         public static string Get(this IConfigurationProvider provider, string key)
         {
